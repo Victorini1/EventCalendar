@@ -1,0 +1,26 @@
+.container .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+   
+ 
+}
+
+.col h1{
+    font-size: 36px;
+ 
+ }
+
+ .col p{
+     font-size: 24px;
+ }
+
+ #date{
+     border-right: 10px;
+ }
+
+ #savebutton{
+     background-color: rgb(19, 119, 201);
+ }
