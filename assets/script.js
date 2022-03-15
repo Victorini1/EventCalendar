@@ -1,18 +1,26 @@
+const saveBtn = $("#savebutton");
+const curDate = moment().format('MMMM Do YYYY');
+let header = $("#currentday");
 
-
-
-// 12 hours in a day and each need a seperate section to write memos in
-
-// add time blocks  that change color depending on the time
-// save the events 
-function saveEvent(event){
-    addEventListener.button("click", toLocal);
-}
-// Write things to the local drive
-function toLocal(){
-    localStorage.setItem.value
-}
 // Read from the local drive
-function fromLocal(){
-    localStorage.getItem.value
-}
+let storedPlans = JSON.parse(localStorage.getItem("storedPlans"));
+let setPlans = JSON.parse(localStorage.setItem())
+
+
+//Time has to appear at the top of page
+header.text(curDate)
+
+// 9 hours in a day and each need a seperate section to write memos in
+
+/* add time blocks  that change color depending on the time..
+get the current time and query the time with a specified time to get the color to change*/
+
+// save the events 
+
+saveBtn.addEventListener("click", function(event){
+    event.preventDefault();
+    
+});
+
+// Write things to the local drive
+
